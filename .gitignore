@@ -1,0 +1,84 @@
+# General
+*.log
+*.env
+*.DS_Store
+*.pyc
+__pycache__/
+*.swp
+.vscode/
+.idea/
+.env.local
+.env.production
+node_modules/
+coverage/
+*.sqlite3
+
+# Python
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+*.manifest
+*.spec
+pip-wheel-metadata/
+.mypy_cache/
+.pytest_cache/
+.tox/
+.cache/
+
+# React (Frontend)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.next/
+frontend/.cache/
+frontend/coverage/
+
+# Django / Flask (Backend)
+backend/__pycache__/
+backend/staticfiles/
+backend/media/
+backend/*.sqlite3
+backend/.env
+backend/.migrations/
+
+# Database
+database/*.sql
+database/*.db
+
+# Docker
+docker/*.env
+docker/data/
+docker/db-data/
+docker/docker-compose.override.yml
+
+# Logs and temp files
+*.log
+logs/
+*.out
+*.tmp
+tmp/
+temp/
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.cache/
